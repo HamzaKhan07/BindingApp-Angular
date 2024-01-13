@@ -1,0 +1,5 @@
+<div class="todo-item">
+  <p [ngClass]="{strike: todoItem.isDone === true}">{{todoItem.task}}</p>
+  <button class="done-btn" (click)="onTaskDone(todoItem.id)"><fa-icon [icon]="faCheck"></fa-icon></button>
+  <button class="delete-btn" (click)="onTaskDelete(todoItem.id)"><fa-icon [icon]="faTrash"></fa-icon></button>
+</div>

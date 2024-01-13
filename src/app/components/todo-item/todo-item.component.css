@@ -1,0 +1,37 @@
+.todo-item{
+  display: flex;
+  background-color: #eeeeee;
+  margin-top: 10px;
+}
+.todo-item p{
+  flex: 1;
+  margin: 0;
+  padding: 0.8rem 1rem;
+  margin-right: 10px;
+}
+.todo-item .delete-btn{
+  padding: 0 1.1rem;
+}
+.todo-item .done-btn{
+  padding: 0 1.1rem;
+}
+
+.strike{
+  text-decoration: line-through;
+}
+
+.todo-item .done-btn{
+  background-color: #82dd55;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-item .delete-btn{
+  background-color: #e23636;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

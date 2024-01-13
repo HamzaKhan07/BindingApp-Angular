@@ -1,0 +1,31 @@
+.todo{
+  margin-top: 80px;
+
+  width: 24rem;
+  height: auto;
+  border: 1px solid #d4d4d4;
+  font-family: 'Poppins';
+  border-radius: 0.5rem;
+  background-color: white;
+
+  padding: 1.5rem;
+}
+.todo .add{
+  display: flex;
+}
+.todo .add input{
+  flex: 1;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-right: 10px;
+  border: 1px solid #d4d4d4;
+  font-family: 'Poppins';
+}
+.todo .add button{
+  padding: 0 1rem;
+  background-color: rgb(13, 110, 253);
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

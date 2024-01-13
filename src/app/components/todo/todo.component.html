@@ -1,0 +1,16 @@
+<div class="todo">
+  <h1>Todoist</h1>
+
+
+  <div class="add">
+    <input type="text" placeholder="Add your new todo" [(ngModel)]="newTask">
+    <button class="add-btn" (click)="onAddTask()"><fa-icon [icon]="faPlus"></fa-icon></button>
+  </div>
+
+  <app-todo-item
+  *ngFor="let todo of todos"
+  [todoItem]="todo"
+  (deleteItem)="onItemDelete($event)"
+  (doneItem)="onItemDone($event)"
+  ></app-todo-item>
+</div>
